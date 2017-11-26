@@ -5,12 +5,12 @@ exports.redis = {
     cluster: true,
     nodes: [{
       host: '127.0.0.1',
-      port: 7000,
+      port: 30001,
       password: '',
       db: '0',
     }, {
       host: '127.0.0.1',
-      port: 7001,
+      port: 30002,
       password: '',
       db: '0',
     }]
